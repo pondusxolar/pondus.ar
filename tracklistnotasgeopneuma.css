@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "monospacesilkscreenexpanded-51g8-webfont";
+    font-weight: lighter;
+    src: url(fuentes/silkscreenexpanded-51g8-webfont.woff2) format(woff2);
+    
+}
+@font-face {
+    font-family:"silverfinster-x3l2k-webfont" ;
+    font-weight: 400;
+    src: url(fuentes/silverfinster-x3l2k-webfont.woff2) format(woff2);
+    
+}
+*{
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: "monospacesilkscreenexpanded-51g8-webfont";
+  
+}
+#back{
+ display: block;
+color: black;
+font-size: 15px;
+text-align: center;
+margin: 0px;
+}
+
+#murmullosenlascolinas{
+ display: block;
+color: black;
+font-size: 20px;
+padding-top: 40px;
+text-align: center;
+margin: 0px;
+
+}
+#text1{
+width: fit-content;
+margin: auto;
+font-size: 15px;
+text-align: center;
+  
+  
+}
+
+#animaenlaorilla{
+ display: block;
+color: black;
+font-size: 20px;
+padding-top: 40px;
+text-align: center;
+margin: 0px;
+}
+
+
+#pastodanzante{
+ display: block;
+color: black;
+font-size: 20px;
+padding-top: 40px;
+text-align: center;
+margin: 0px;
+}
+
+
+#eternomerodear{
+ display: block;
+color: black;
+font-size: 20px;
+padding-top: 40px;
+text-align: center;
+margin: 0px
+}
+
+
+#hipnosisdepantano{
+ display: block;
+color: black;
+font-size: 20px;
+padding-top: 40px;
+text-align: center;
+margin: 0px
+}
+
+
+#carreranocturna{
+    display: block;
+color: black;
+font-size: 20px;
+padding-top: 40px;
+text-align: center;
+margin: 0px 
+}
+
+#xolarxound{
+    display: block;
+color: black;
+font-size: 20px;
+padding-top: 40px;
+text-align: center;
+margin: 0px     
+}
+
+#lagosanador{
+    display: block;
+color: black;
+font-size: 20px;
+padding-top: 40px;
+text-align: center;
+margin: 0px         
+}
+
+#ultimoencuentro{
+        display: block;
+color: black;
+font-size: 20px;
+padding-top: 40px;
+text-align: center;
+margin: 0px   
+}

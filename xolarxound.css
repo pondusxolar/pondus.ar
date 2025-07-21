@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "monospacesilkscreenexpanded-51g8-webfont";
+    font-weight: lighter;
+    src: url(fuentes/silkscreenexpanded-51g8-webfont.woff2) format(woff2);
+}
+@font-face {
+    font-family:"silverfinster-x3l2k-webfont" ;
+    font-weight: 400;
+    src: url(fuentes/silverfinster-x3l2k-webfont.woff2) format(woff2);
+}
+
+h1{
+    display: block;
+    font-family: Doto;
+    color: black;
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+    margin: 0px;
+
+}
+#gif {
+    width: 250px;
+    height: 20px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+#p1 {
+    font-family: Doto;
+    font-weight: bold;
+
+}
+.navbar li{
+    display: inline;
+}
+.navbar ul{
+    text-align: center;
+   padding: 0px;
+}
+
+.navbar a{
+        font-family: Doto;
+    color: black;
+    font-weight: bold;
+    padding: 30px;
+}
+#mainphoto{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    border-radius: 3px;
+}
+
+#descripcion{
+    text-align: center;
+    font-family: "monospacesilkscreenexpanded-51g8-webfont";
+    font-size: 10px;
+}
+#lanzamientostitulo{
+    text-align: center;
+    font-family: Doto;
+    font-size: 17px;
+    font-weight: bold;
+   
+}
+#geopneumacover{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+#geopneumatitulo{
+    font-family: "monospacesilkscreenexpanded-51g8-webfont";
+    font-size: 12px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    letter-spacing: 10px;
+    padding-top: 6px;
+}
+#shaocover{
+    width:200px;
+    height:200px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+#shaotitulo{
+     font-family: "monospacesilkscreenexpanded-51g8-webfont";
+    font-size: 12px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: 10px;   
+}

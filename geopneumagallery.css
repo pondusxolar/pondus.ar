@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "monospacesilkscreenexpanded-51g8-webfont";
+    font-weight: lighter;
+    src: url(fuentes/silkscreenexpanded-51g8-webfont.woff2) format(woff2);
+}
+@font-face {
+    font-family:"silverfinster-x3l2k-webfont" ;
+    font-weight: 400;
+    src: url(fuentes/silverfinster-x3l2k-webfont.woff2) format(woff2);
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.gallery{
+    padding: 10px;
+}
+
+.gallery:hover{
+transform: scale(1.02);
+opacity: 80%;
+}
+
+#credito{
+    font-family: "monospacesilkscreenexpanded-51g8-webfont";
+    font-size: 15px;
+    text-align: center;
+}
+
+#back{
+    font-family: "monospacesilkscreenexpanded-51g8-webfont";
+ display: block;
+padding-top: 30px;
+padding-bottom: 20px;
+color: black;
+font-size: 15px;
+text-align: center;
+margin: 0px;
+}

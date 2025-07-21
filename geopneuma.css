@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "monospacesilkscreenexpanded-51g8-webfont";
+    font-weight: lighter;
+    src: url(fuentes/silkscreenexpanded-51g8-webfont.woff2) format(woff2);
+}
+@font-face {
+    font-family:"silverfinster-x3l2k-webfont" ;
+    font-weight: 400;
+    src: url(fuentes/silverfinster-x3l2k-webfont.woff2) format(woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "monospacesilkscreenexpanded-51g8-webfont";
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.back{
+    float:left;
+}
+.container{
+    margin: 100px auto;
+    width: 75%;
+}
+
+.text h2{
+    background-color: rgb(52, 167, 71);
+    color: white;
+ 
+}
+#tapageopneuma{
+ max-width: 300px;
+ float: left;
+ margin-right: 15px;
+}
+
+.navbar1 ul{
+    margin-top: 10px;
+    padding: px;
+}
+.navbar1 li{
+    display: inline;
+
+   
+}
+.navbar1 a:visited{
+    color: blue;
+}
+
+.navbar1 a:hover {
+ opacity: 60%;
+}
+
+
+
+#back{
+ display: block;
+color: black;
+font-size: 15px;
+text-align: center;
+margin: 0px;
+}
