@@ -27,7 +27,7 @@ body{
     float:left;
 }
 .container{
-    margin: 100px auto;
+    margin: 40px auto;
     width: 70%;
 }
 
@@ -39,6 +39,7 @@ body{
 .text p{
 text-align: justify;
 justify-content: space-evenly;
+
 }
 #tapageopneuma{
  max-width: 300px;
@@ -72,7 +73,7 @@ justify-content: space-evenly;
 color: black;
 font-size: 15px;
 text-align: center;
-margin: 0px;
+margin-top: 30px;
 }
 
 @media (max-width:600px){
@@ -87,4 +88,5 @@ margin: 0px;
     #tapageopneuma{
         width: 100%;
     }
+    .back
 }
