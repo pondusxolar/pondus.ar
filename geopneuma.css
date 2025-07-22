@@ -27,11 +27,12 @@ body{
     float:left;
 }
 .container{
-    margin: 40px auto;
+    margin: 70px auto;
     width: 70%;
 }
 
 .text h2{
+    display:flexbox;
     background-color: rgb(52, 167, 71);
     color: white;
  
@@ -88,5 +89,17 @@ margin-top: 30px;
     #tapageopneuma{
         width: 100%;
     }
-  
+   
+}
+
+@media (max-width:1024px){
+    .text p{
+        font-size: 10px;
+    }
+    .navbar1 li{
+        font-size: 10px;
+        display: flex;
+        margin-bottom: 2%;
+    }
+
 }

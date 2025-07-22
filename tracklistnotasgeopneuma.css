@@ -15,6 +15,7 @@
     padding: 30px;
     box-sizing: border-box;
     font-family: "monospacesilkscreenexpanded-51g8-webfont";
+
   
 }
 #back{
@@ -118,3 +119,10 @@ padding-top: 40px;
 text-align: center;
 margin: 0px   
 }
+
+@media (max-width:600px){
+     .text p{
+        font-size: 4vw;}
+}
+   
+    
