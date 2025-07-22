@@ -9,14 +9,15 @@
     src: url(fuentes/silverfinster-x3l2k-webfont.woff2) format(woff2);
 }
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: "monospacesilkscreenexpanded-51g8-webfont";
    
 }
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -24,7 +25,6 @@ body{
 }
 .back{
     float:left;
-    paddin
 }
 .container{
     margin: 100px auto;
@@ -36,19 +36,25 @@ body{
     color: white;
  
 }
+.text p{
+text-align: justify;
+justify-content: space-evenly;
+}
 #tapageopneuma{
  max-width: 300px;
  float: left;
- margin-right: 0.5%;
+ margin-right: 15px;
 }
 
 .navbar1 ul{
     margin-top: 10px;
-    padding: px;
+   
 }
 .navbar1 li{
     display: inline;
-
+    justify-content: space-evenly;
+     margin-right: 5%;
+    
    
 }
 .navbar1 a:visited{
@@ -67,4 +73,15 @@ color: black;
 font-size: 15px;
 text-align: center;
 margin: 0px;
+}
+
+@media (max-width:600px){
+    .text p{
+        font-size: 10px;
+    }
+    .navbar1 li{
+        font-size: 10px;
+        display: flex;
+        margin-bottom: 5%;
+    }
 }
