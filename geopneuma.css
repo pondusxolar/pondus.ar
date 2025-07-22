@@ -48,14 +48,19 @@ justify-content: space-evenly;
  margin-right: 15px;
 }
 
+
+ 
 .navbar1 ul{
-    margin-top: 10px;
+    display: inline-block;
+    line-height: 1px;
+    
    
 }
 .navbar1 li{
-    display: inline;
-    justify-content: space-evenly;
-     margin-right: 5%;
+    display: inline-block;
+    line-height: 2px;
+
+
     
    
 }
