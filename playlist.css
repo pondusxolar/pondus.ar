@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "monospacesilkscreenexpanded-51g8-webfont";
+    font-weight: lighter;
+    src: url(fuentes/silkscreenexpanded-51g8-webfont.woff2) format(woff2);
+}
+@font-face {
+    font-family:"silverfinster-x3l2k-webfont" ;
+    font-weight: 400;
+    src: url(fuentes/silverfinster-x3l2k-webfont.woff2) format(woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height:100vh;
+    font-family:"monospacesilkscreenexpanded-51g8-webfont";
+}
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+
+nav li{
+    height: 50px;
+
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: blue;
+}
+
+nav li{
+    height: 50px;
+
+}
+#canciones{
+    font-size: 13px;
+display: flex;
+flex-direction: column;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+}
+
+li{
+    padding: 0.20%;
+}
+#back{
+    font-family: "monospacesilkscreenexpanded-51g8-webfont";
+ display: block;
+color: black;
+font-size: 15px;
+text-align: center;
+margin-top: 50px;
+}
+
+
+@media (max-width:600px){
+nav ul{
+    width: 90%;
+    font-size: 8px;
+
+}
+#canciones{
+    font-size: 10px;
+    padding: 15px;}
+    
+li{
+  padding: 5px;
+}
+
+    #back{
+        font-size: 10px;
+    }
+}
+
